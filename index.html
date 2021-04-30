@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+
+<html lang="en">
+<title> HI-THERE, NIS </title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+
+<style>
+    body {font-family: 'Luckiest Guy', cursive;}
+    .mySlides {display: none}
+    </style>
+    
+    <body>
+        
+    <body background="black.gif">
+    
+    <!-- Navbar -->
+    <center> <div> 
+        <a href="index.html" >WELCOME</a>
+        <a href="form.html" >ANSWER ME</a>
+    </div></center>
+    
+    <center> <h1> <font size="150">✨ Oh Begini Rasanya ✨ </h1> </center></font size>
+    
+    <center> <h2> <font size="100"> Haidir x Hanis </font></h2></center>
+        
+    <!-- Automatic Slideshow Images -->
+      <center> <div class="mySlides w3-display-container w3-center">
+        <img src="haidir.jpg" style="width:500px" style="height:500px">
+        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <p><b> I LOVE YOU </b></p>   
+        </div>
+      </div>
+      <div class="mySlides w3-display-container w3-center">
+        <img src="hanis (2).jpg" style="width:500px" style="height:500px">
+        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <p><b>ENJOY! </b></p>    
+        </div>
+      </div> </center>
+    
+    <script>
+    // Automatic Slideshow - change image every 4 seconds
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 4000);    
+    }
+    
+    </script>
+    </body>
+    </html>
