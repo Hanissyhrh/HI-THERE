@@ -1,0 +1,53 @@
+a:link, :visited
+	{
+		background-color: darkslategray;
+		color:whitesmoke;
+		padding: 10px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		
+	}
+
+a:hover
+	{
+		background-color: lightslategrey;
+		color: azure;
+	}
+h1
+	{
+		background-color: darkslategray;
+		font-family: 'Euphoria Script', cursive;
+		color: whitesmoke;
+		padding: 10px;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 40px dotted;
+		
+
+	}
+
+p
+	{
+		background-color: darkslategrey;
+		font-family: 'Emilys Candy', cursive;
+		color: white;
+		padding: 10px;
+		text-align: justify;
+		text-decoration: none;
+		display: inline-block;
+
+	}
+
+h2
+	{
+		font-family: 'Mountains of Christmas', cursive;
+		color: white;
+	}
+
+    
+h3
+	{
+		font-family: 'Love Ya Like A Sister', cursive;
+		color: white;
+	}
